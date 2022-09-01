@@ -13,6 +13,10 @@
         border-color: #383838;
     }
 
+    .panel-signin:hover{
+        
+    }
+
     footer{
         background-color: #711fa8;
         text-align: center;
@@ -38,37 +42,41 @@
     <div class="main-panel">
         <h1 class="text-maintitle">Welcome!!!</h1>
         <br>
-        <h3 class="text-signin">First time? <b>Sign in</b></h3>
-        <br>
-        <div class="text-logindata">
-            <label><b>E-mail</b></label>
+        <div class="panel-signin">
+            <h3 class="text-signin">First time? <b>Sign in</b></h3>
+            <br>
+            <div class="text-logindata">
+                <label><b>E-mail</b></label>
+            </div>
+            <input class="stredit form-control" type="text" name="email-signin">
+            <br>
+            <div class="text-logindata">
+                <label><b>Password</b></label>
+            </div>
+            <input class="stredit form-control" type="text" name="pwd-signin">
         </div>
-        <input class="stredit" type="text" name="email-signin">
         <br>
-        <div class="text-logindata">
-            <label><b>Password</b></label>
+        <div class="panel-signup">
+            <h3 class="text-signup">Already have an account? <b>Sign up</b></h3>
+            <br>
+            <div class="text-logindata">
+                <label><b>E-mail</b></label>
+            </div>
+            <input class="stredit form-control" type="text" name="email-signup">
+            <br>
+            <div class="text-logindata">
+                <label><b>Password</b></label>
+            </div>
+            <input class="stredit form-control" type="text" name="pwd-signup">
         </div>
-        <input class="stredit" type="text" name="pwd-signin">
-        <br>
-        <h3 class="text-signup">Already have an account? <b>Sign up</b></h3>
-        <br>
-        <div class="text-logindata">
-            <label><b>E-mail</b></label>
-        </div>
-        <input class="stredit" type="text" name="email-signup">
-        <br>
-        <div class="text-logindata">
-            <label><b>Password</b></label>
-        </div>
-        <input class="stredit" type="text" name="pwd-signup">
         <br>
     </div>
 
     <footer>
-    <p class="text-contact">Contato</p>
+    <p class="text-contact">Get in touch!</p>
     <br>
     <p class="text-contact">[e-mail]</p>
-    <p class="text-contact">[telefone]</p>
+    <p class="text-contact">[phone]</p>
     </footer>
 </body>
 </html>
